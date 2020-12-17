@@ -1,0 +1,17 @@
+body {
+	background-color: var(--bg);
+}
+
+.Wrap {
+	// height: 100vh;
+	// overflow: hidden;
+	display: flex;
+	position: relative;
+}
+
+.Main {
+	word-break: break-word;
+	overflow: auto;
+	flex: 1 1 auto;
+	margin-left: var(--sidepanelWidth);
+}

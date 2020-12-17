@@ -1,0 +1,21 @@
+.Footer {
+	cursor: default;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background-color: #382f3d;
+	color: $white;
+
+	@include mediaUp(md) {
+		padding-top: 48px;
+		padding-bottom: 40px;
+	}
+}
+
+.Footer a {
+	@include linkReset;
+	color: $white;
+}
+
+.Footer a:hover {
+	color: $brand;
+}
