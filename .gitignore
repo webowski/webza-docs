@@ -1,5 +1,6 @@
 /node_modules
 /package-lock.json
+.vscode
 /build/config-special.js
 /html/
 # /images/icons.min.svg
